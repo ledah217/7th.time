@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  SeventhTimeLive
+//
+//  Created by 刘洋  on 17/2/15.
+//  Copyright © 2017年 com.217.www.SeventhTimeLive. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//分类
+
+
+//第三方框架
+#import <Masonry.h>
+#import <YYModel.h>
+#import <AFNetworking.h>
+#import <SVProgressHUD.h>
+#import <MJRefresh.h>
+#import "UIViewController+Addition.h"
+#import <DKNightVersion/DKNightVersion.h>
+
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+//自定义宏
+#define mainColor [UIColor colorWithRed:46.0/255 green:210.0/255 blue:156.0/255 alpha:1]
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScreenBounds [UIScreen mainScreen].bounds
+#define kNavBarH   64
+
+//常量
+#define NavigationBarHeight 64
+#define TabBarHeight 44
+
+#endif /* PrefixHeader_pch */

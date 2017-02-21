@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - DKNightVersion (2.4.2):
+    - DKNightVersion/Core (= 2.4.2)
+    - DKNightVersion/CoreAnimation (= 2.4.2)
+    - DKNightVersion/UIKit (= 2.4.2)
+  - DKNightVersion/Core (2.4.2):
+    - DKNightVersion/Core/DeallocBlockExecutor (= 2.4.2)
+    - DKNightVersion/Core/extobjc (= 2.4.2)
+  - DKNightVersion/Core/DeallocBlockExecutor (2.4.2)
+  - DKNightVersion/Core/extobjc (2.4.2)
+  - DKNightVersion/CoreAnimation (2.4.2):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (2.4.2):
+    - DKNightVersion/Core
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.0.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - DKNightVersion
+  - FMDB
+  - Masonry
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+  - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DKNightVersion: a211bacb8d6a9677722aaf93e292a4e5908490c1
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: f197b179b90d2a9bc0b8f66a440d661b47c94890
+
+COCOAPODS: 1.1.1

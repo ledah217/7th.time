@@ -1,0 +1,14 @@
+NORMAL   NIGHT    RED
+#2ED29C  #222222  #fafafa SVBG
+#efeff4  #104E8B  #ffffff SWTINT
+#ffffff  #222222  #ffffff TABV
+#ffffff  #222222  #ffffff CELL
+#efeff4  #1c1c1c  #ffffff TAB
+#aaaaaa  #313131  #aaaaaa SEP
+#0000ff  #ffffff  #fa0000 TINT
+#000000  #ffffff  #000000 TEXT
+#ffffff  #444444  #ffffff BAR
+#f0f0f0  #222222  #dedede HIGHLIGHTED
+
+
+  
